@@ -1,0 +1,28 @@
+{
+  "name": "typi",
+  "version": "1.0.0",
+  "description": "TypeScript transpiler bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpecialAgency-Chat/Typi.git"
+  },
+  "keywords": [],
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SpecialAgency-Chat/Typi/issues"
+  },
+  "homepage": "https://github.com/SpecialAgency-Chat/Typi#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3"
+  }
+}

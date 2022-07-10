@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "lib": [
+      "ESNext"
+    ],
+    "newLine": "lf",
+    "outDir": "./dist",
+  },
+  "include": [
+    "src"
+  ]
+}
