@@ -63,6 +63,7 @@ client.on("interactionCreate", async (i) => {
         target: ts.ScriptTarget.ES2021,
         module: ts.ModuleKind.CommonJS,
         declaration: true,
+        esModuleInterop: true,
       });
       await i.editReply("Transpiling...");
       const transpileResult = program.emit();
