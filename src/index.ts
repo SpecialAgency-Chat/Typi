@@ -73,9 +73,9 @@ client.on("interactionCreate", async (i) => {
         if (diagnostic.file) {
           const { line, character } = ts.getLineAndCharacterOfPosition(diagnostic.file, diagnostic.start!);
           const message = ts.flattenDiagnosticMessageText(diagnostic.messageText, "\n");
-          errors += (`(${line + 1},${character + 1}): ${message}`);
+          errors += (`(${line + 1},${character + 1}): ${message}\n`);
         } else {
-          errors += (ts.flattenDiagnosticMessageText(diagnostic.messageText, "\n"));
+          errors += (ts.flattenDiagnosticMessageText(diagnostic.messageText, "\n") + "\n");
         }      
       });
       await i.editReply({
